@@ -1,0 +1,22 @@
+#table_s {
+	border: 5px double #fff;
+	margin: auto auto;
+	border-radius: 10px;
+}
+
+.table_head_text {
+	color: white;
+	font-size: 40px;
+	font-family: "Tahoma" , sans-serif;
+
+	background: #0C0A1B;
+	padding: 15px;
+}
+
+.table_main_text {
+	color: white;
+	font-size: 30px;
+
+	background: #201F2A;
+	padding: 15px;
+}

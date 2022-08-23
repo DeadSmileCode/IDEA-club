@@ -1,0 +1,83 @@
+.div_text {
+	background: #002625;
+	color: #FFF9D4;
+	max-width: 90%;
+	margin-bottom: 10px;
+	position: static;
+	display: ;
+}
+
+.div_head_text {
+	max-width: 45%;
+	min-width: 45%;
+	margin: 8px;
+
+	font-family: "Verdana" , sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+ 
+.div_img {
+	width: 230px;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.div_main_text {
+	display: inline-block;
+	max-width: 43%;
+	font-size: 15px;
+	margin: 8px;
+}
+
+
+.r_head {
+	float: right;
+	text-align: right;
+}
+
+.l_head {
+	float: left;
+	text-align: left;
+}
+
+.r {
+	float: right;
+	text-align: right;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.l {
+	float: left;
+	text-align: left;
+	border-radius: 0px 20px 20px 0px;
+}
+
+.r_img {
+	float: left;
+}
+
+.l_img {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************!!!!!!***********************
+	
+	DeadSmile made this is project.
+	Can you find an Easter egg?
+	Let's go! 
+
+***********************!!!!!!**********************/

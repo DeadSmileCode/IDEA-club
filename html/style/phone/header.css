@@ -1,0 +1,120 @@
+@keyframes header {
+	from{ text-shadow: 0px 0px 0px #fff; }
+	5% { text-shadow: -1px -1px 1px #fff; }
+	10% { text-shadow: -2px -2px 2px #fff; }
+	15% { text-shadow: -3px -3px 3px #fff; }
+	20% { text-shadow: -4px -4px 4px #fff; }
+	25% { text-shadow: -5px -5px 5px #fff; }
+	30% { text-shadow: -6px -6px 6px #fff; }
+	35% { text-shadow: -7px -7px 7px #fff; }
+	40% { text-shadow: -8px -8px 8px #fff; }
+	45% { text-shadow: -9px -9px 9px #fff; }
+	50% { text-shadow: -10px -10px 10px #fff; }
+	55% { text-shadow: -9px -9px 9px #fff; }
+	60% { text-shadow: -8px -8px 8px #fff; }
+	65% { text-shadow: -7px -7px 7px #fff; }
+	70% { text-shadow: -6px -6px 6px #fff; }
+	75% { text-shadow: -5px -5px 5px #fff; }
+	80% { text-shadow: -4px -4px 4px #fff; }
+	85% { text-shadow: -3px -3px 3px #fff; }
+	90% { text-shadow: -2px -2px 2px #fff; }
+	95% { text-shadow: -1px -1px 1px #fff; }
+	to { text-shadow: 0px 0px 0px #fff; }
+}
+
+@keyframes text_header {
+	from { color: skyblue; }
+	to { color: blue; }
+}
+
+/**************************************************/
+
+body {
+	background: #2B2B2B;
+}
+
+#header {
+	background: black;
+	position: fixed;
+	margin: 0px;
+	max-width: device-width;
+	padding-left: 65px;
+}
+
+#header_name {
+	text-decoration: none;
+	font-family: "Arial" , sans-serif;
+	font-size: 38px;
+	color: white;
+
+	display: inline;
+	font-weight: 600;
+}
+
+.header_text {
+	text-decoration: none;
+	font-family: "Arial" , sans-serif;
+	font-size: 25px;
+	color: skyblue;
+
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#header_img {
+	width: 60px;
+	float: right;
+	display: none;
+}
+
+#name_page {
+	font-family: "Arial" , sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+#discord_href {
+	width: 35px;
+	margin-left: 20px;
+}
+
+/**************************************************/
+
+#header_name:hover {
+	animation: header 2s infinite ;
+}
+
+#header_img:focus {
+	-o-transform: rotate(720deg);
+	-ms-transform: rotate(720deg);
+	-moz-transform: rotate(720deg);
+	-webkit-transform: rotate(720deg);
+	transform: rotate(720deg);
+}
+
+.header_text:hover {
+	animation: text_header 1s forwards;
+}
+
+/**************************************************/
+
+#footer {
+	color: white;
+	display: flex;
+	background: #1A0028;
+	/*padding-left: 44%;
+	padding-right: 45%;*/
+	margin-top: 10px;
+	float: left;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 27px;
+	flex-direction: column;
+}
+
+.footer_link {
+	box-sizing: border-box;	
+	text-decoration: none;
+	color: skyblue;
+}

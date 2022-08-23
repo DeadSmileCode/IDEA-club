@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" media="(min-width:768px)" href="./style/computer/main.css">
+	<link rel="stylesheet" type="text/css" media="(min-width:768px)" href="./style/computer/header.css">
+	<link rel="stylesheet" type="text/css" media="(max-width:768px)" href="./style/phone/main.css">
+	<link rel="stylesheet" type="text/css" media="(max-width:768px)" href="./style/phone/header.css">
+	<link rel="shortcat icon" type="image/png" href="./img/icon.png">
+	<title>IDEA team</title>
+</head>
+<body>
+	<div id="header">
+		<a href="./" id="header_name">IDEA team</a>
+
+		<a href="./IT" class="header_text">IDEA IT</a>
+		<a href="./result" class="header_text">Игры и Результаты</a>
+
+		<a href="https://discord.gg/TNyMn2KNbV" ><img src="./img/discord_icon.png" id="discord_href"></a>
+
+		<img src="./img/icon.png" id="header_img">
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div class="div_text l" id="load">
+		<p class="div_head_text l_head">Кто мы?</p>
+		<img src="./img/kto-min.png" class="div_img l_img">
+		<p class="div_main_text">
+			Мы – команда по интеллектуальному спорту, наша команда состоит из 10 человек. Мы школьники с разными увлечениями и интересами , но это нас и объединяет в команду. У нас каждая игра наполнена позитивом и радостью. И мы до сих пор ведем набор участников.
+		</p>
+	</div>
+
+	
+
+	<div class="div_text r">
+		<p class="div_head_text r_head">Во что мы играем?</p>
+		<img src="./img/logo_q.png" class="div_img r_img">
+		<p class="div_main_text">
+			Мы любим разнообразие так что мы играем во все виды интелектуального и логического спорта: и в спортивное ЧГК, и в брейн-ринг, и в quantum, и даже в свою игру.
+		</p>
+	</div>
+
+	<div class="div_text l" id="load">
+		<p class="div_head_text l_head">Наши цели</p>
+		<img src="./img/celi-min.jpg" class="div_img l_img">
+		<p class="div_main_text">
+			<b>В этом году мы собираемся:</b><br>
+			1) Пройти в финал во всех лигах TAMOS Cup.<br>
+			2) Войти в первую десятку в своей возрастной группе на Лиге ВУЗов.<br>
+			3) Войти в первую десятку в Лиги Европы.<br>
+			4) Войти в первую десятку в Школьной лиге.<br>
+			5) И самое главное: победа в своей возрастной категории на Чемпионате РК, если он будет.
+		</p>
+	</div>
+
+	
+
+	<footer id="footer">
+		<p>Связанные компании</p>
+		<a href="./it_page.html" class="footer_link">IDEA IT</a>
+
+		<p>Контакты и Email</p>
+		<a href="mailto:idea79225@gmail.com" class="footer_link">idea79225@gmail.com</a> <br>
+		<a href="tel:+77777265950" class="footer_link">+7 777 726 5950</a>
+	</footer>
+
+</body>
+
+<script type="text/javascript">
+	function loading_page() {
+		document.getElementById("header_img").src = './img/egg.png';
+		
+		var text = document.getElementById("header_name");
+		text.text = "DeadSmile";
+		
+		var a_text = document.getElementsByClassName("header_text")[0];
+		a_text.text = "Dead IT";
+
+		alert("Easter egg!!!" );
+
+		for (var i = 0; i < 4; i++) {
+			document.getElementsByClassName("div_img")[i].src = './img/egg.png';
+		}
+	}
+
+	buf = document.getElementById("load");
+	buf.addEventListener("click", loading_page);
+
+</script>
+
+</html>
