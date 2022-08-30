@@ -8,6 +8,14 @@ main colors:
 */
 
 @import url("./fonts.css");
+@import url("./header.css");
+@import url("./menu.css");
+@import url("./style-c.css") (min-device-width: 481px);
+@import url("./style-m.css") (max-device-width: 480px);
+
+*{
+	box-sizing: border-box;
+}
 
 body , html{
 	size: 100%;
@@ -15,11 +23,13 @@ body , html{
 	padding: 0px;
 }
 
-/*#content_div {
+body {
 	display: flex;
-	justify-content:center;
-	align-items: center;
-}*/
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+}
 
 a {
 	text-decoration: none;

@@ -24,10 +24,13 @@
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: column;
+
 	background-color: rgba(255, 255, 255, .4);
 	padding: 25px;
-	transform: translateY(50%);
-	margin: auto;
+
+	margin: 0px;
+	margin-top: var(--margin-menu);
+	margin-bottom: var(--margin-menu);
 }
 
 /*#menu_cont:active{
