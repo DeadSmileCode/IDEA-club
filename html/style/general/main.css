@@ -1,0 +1,38 @@
+/*
+main colors: 
+#05386b
+#379683
+#5cdb95
+#8ee4af
+#edf5e1
+*/
+
+@import url("./fonts.css");
+
+body , html{
+	size: 100%;
+	background-color: #22B859;
+	padding: 0px;
+}
+
+/*#content_div {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}*/
+
+a {
+	text-decoration: none;
+}
+
+.white-text {
+	color: #edf5e1;
+}
+
+.green-text {
+	color: #5cdb95;
+}
+
+.KTF-text{
+	font-family: "KTF";
+}

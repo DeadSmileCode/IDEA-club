@@ -1,0 +1,12 @@
+:root {
+	--size-logo-img: 90px;
+	--size-logo-text: 75px;
+	--size-header-img: 50px;
+	--size-header-text: 50px;
+	--size-index-main-text: 70px;
+	--size-menu-text: 50px;
+
+	--top-p-footer: 30px;
+	--botttom-p-footer: 30px;
+	--size-footer-img: 70px;
+}

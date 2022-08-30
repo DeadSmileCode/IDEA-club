@@ -1,0 +1,10 @@
+@import url("./main.css");
+
+.main-text {
+	font-size: var(--size-index-main-text);
+	font-family: "Erm";
+}
+
+#page {
+	position: sticky;
+}

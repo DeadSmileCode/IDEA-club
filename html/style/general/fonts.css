@@ -1,0 +1,23 @@
+@font-face{
+	font-family: "Hermes";
+	font-style: normal;
+	font-weight: 500;
+
+	src: url("./fonts/hermes.woff") format("woff");
+}
+
+@font-face{
+	font-family: "KTF";
+	font-style: normal;
+	font-weight: 500;
+
+	src: url("./fonts/KTF.woff") format("woff");
+}
+
+@font-face{
+	font-family: "Erm";
+	font-style: normal;
+	font-weight: 500;
+
+	src: url("./fonts/Erm.woff") format("woff");
+}
