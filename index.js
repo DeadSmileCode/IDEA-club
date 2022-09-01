@@ -23,28 +23,24 @@ site.use(function(req , res , next) {
 	});
 });
 
-site.get(/.+/ , function(req ,res) {
-	res.sendFile("./www/update-time.html" , { root: '.' });
+site.get("/" , function(req ,res) {
+	res.sendFile("./www/index.html" , { root: '.' });
 });
-
-// site.get("/" , function(req ,res) {
-// 	res.sendFile("./www/index.html" , { root: '.' });
-// });
-// site.get("/about" , function(req ,res) {
-// 	res.sendFile("./www/about.html" , { root: '.' });
-// });
-// site.get("/progress" , function(req ,res) {
-// 	res.sendFile("./www/index.html" , { root: '.' });
-// });
-// site.get("/about/system" , function(req ,res) {
-// 	res.sendFile("./www/about-system.html" , { root: '.' });
-// });
-// site.get("/about/deportaments" , function(req ,res) {
-// 	res.sendFile("./www/deportaments.html" , { root: '.' });
-// });
-// site.get("/how-link" , function(req ,res) {
-// 	res.sendFile("./www/how-link.html" , { root: '.' });
-// });
+site.get("/about" , function(req ,res) {
+	res.sendFile("./www/about.html" , { root: '.' });
+});
+site.get("/progress" , function(req ,res) {
+	res.sendFile("./www/index.html" , { root: '.' });
+});
+site.get("/about/system" , function(req ,res) {
+	res.sendFile("./www/about-system.html" , { root: '.' });
+});
+site.get("/about/deportaments" , function(req ,res) {
+	res.sendFile("./www/deportaments.html" , { root: '.' });
+});
+site.get("/how-link" , function(req ,res) {
+	res.sendFile("./www/how-link.html" , { root: '.' });
+});
 
 site.listen(process.env.PORT);
 
