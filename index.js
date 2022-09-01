@@ -2,7 +2,6 @@
 
 const express = require("express");
 const fs = require("fs");
-const update_time = true;
 
 const site = express();
 const file_games = './html/games_statistic.json';
@@ -12,15 +11,21 @@ const file_games = './html/games_statistic.json';
 site.use(express.static(__dirname + "/www"));
 
 site.use(function(req , res , next) {
-	if (update_time) {
-		res.sendFile("./www/update-time.html" , { root : '.' });
-	} else {
-		next();
-	}
+	var date = new Date();
+	var data = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()} ${req.method} ${req.url} ${req.get("user-agent")}`;
+	fs.writeFile("hello.txt", "Hello мир!", function(error){
+	    if(error){
+	    	console.log("ERROR!");
+	    	let data = fs.readFileSync("hello.txt", "utf8");
+	    } else {
+	    	console.log("Add log!");
+	    }
+	});
+	res.redirect("/time/update/update-time-page");
 });
 
 site.get("/time/update/update-time-page" , function(req ,res) {
-	res.sendFile("./www/index.html" , { root: '.' });
+	res.sendFile("./www/update-time.html" , { root: '.' });
 });
 
 site.get("/" , function(req ,res) {
