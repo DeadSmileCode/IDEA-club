@@ -13,7 +13,7 @@ site.use(express.static(__dirname + "/www"));
 
 if (update_time) {
 	site.get(/.+/ , function(req ,res) {
-		res.sendFile("./www/update_time.html" , { root: '.' });
+		res.sendFile("./www/update-time.html" , { root: '.' });
 	});
 } else {
 	site.get("/" , function(req ,res) {
