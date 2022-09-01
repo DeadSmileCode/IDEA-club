@@ -23,7 +23,7 @@ site.use(function(req , res , next) {
 	});
 });
 
-site.get("/time/update/update-time-page" , function(req ,res) {
+site.get(/.+/ , function(req ,res) {
 	res.sendFile("./www/update-time.html" , { root: '.' });
 });
 
