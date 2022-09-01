@@ -1,0 +1,28 @@
+@media (max-device-width:480px){
+	:root{
+		--size-prime-text: 40px;
+		--size-no-prime-text: 20px;
+	}
+}
+
+@media (min-device-width:481px){
+	:root{
+		--size-prime-text: 35px;
+		--size-no-prime-text: 25px;
+	}
+}
+
+.prime-text {
+	font-family: "Intro";
+	font-size: var(--size-prime-text);
+	margin: 0px;
+	margin-top: 20px;
+}
+
+.no-prime-text {
+	font-family: "Intro";
+	font-size: var(--size-no-prime-text);
+	margin: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

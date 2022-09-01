@@ -39,8 +39,21 @@ a {
 	color: #edf5e1;
 }
 
+.grey-text {
+	color: #cdd5c1;
+}
+
 .green-text {
 	color: #5cdb95;
+}
+
+.left-text {
+	float: left;
+}
+
+.right-text {
+	float: right;
+
 }
 
 .KTF-text{
