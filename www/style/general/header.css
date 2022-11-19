@@ -7,6 +7,7 @@
 	justify-content:space-between;
 	margin: 0px;
 	padding: 5px;
+	border-radius: 15px;
 }
 
 #logo {
@@ -38,32 +39,4 @@
 .h-text {
 	font-size: var(--size-header-text);
     float: right;
-}
-
-
-
-#footer {
-	display: flex;
-	flex-wrap:wrap;
-	align-items: center;
-	flex-direction: column;
-
-	background-color: #409070;
-	padding-top: var(--top-p-footer);
-	padding-bottom: var(--bottom-p-footer);
-}
-
-#footer-icons {
-
-}
-
-.f-img {
-	width: var(--size-footer-img);
-	border-radius: 15px;
-}
-
-.f-text {
-	font-family: "Hermes";
-	font-stretch: expanded;
-	font-size: var(--size-footer-text);
 }
