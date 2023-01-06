@@ -1,3 +1,15 @@
+@media (max-device-width:480px){
+	:root{
+		--size-icon: 40px;
+	}
+}
+
+@media (min-device-width:481px){
+	:root{
+		--size-icon: 70px;
+	}
+}
+
 #main-text {
 	text-align: center;
 	font-family: "KTF";
@@ -8,6 +20,18 @@
 	text-align: center;
 	font-family: "Intro";
 	color: #edf5e1;
+}
+
+#fuck-you-mother {
+
+}
+
+.link-div {
+
+}
+
+.main-icon {
+	width: var(--size-icon);
 }
 
 a {

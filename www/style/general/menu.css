@@ -32,7 +32,3 @@
 	margin-top: var(--margin-menu);
 	margin-bottom: var(--margin-menu);
 }
-
-/*#menu_cont:active{
-	transform: rotate(450deg);
-}*/
